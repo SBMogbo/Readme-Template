@@ -8,35 +8,35 @@ function generateMarkdown(data) {
 
   ## Table of Contents
 
-  * Installation
-  * Usage
-  * License
-  * Contributing
-  * Tests
-  * Questions
+  * [Installation -Link](#Link)
+  * [Usage -Link](#Link)
+  * [License -Link](#Link)
+  * [Contributing -Link](#Link)
+  * [Tests -Link](#Link)
+  * [Questions -Link](#Link)
   
 
-  ## Installation
+  ## [Installation -Link] (#Installation)
 
   ${data.installation}
 
-  ## Usage
+  ## [Usage -Link](#Link)
 
   ${data.usage}
 
-  ## License
+  ## [License -Link](#Link)
 
   ![GitHub license](https://img.shields.io/badge/license-${data.license}-blue.svg)
 
-  ## Contributing
+  ## [Contributing -Link](#Link)
 
   ${data.contributing}
 
-  ## Tests
+  ## [Tests -Link](#Link)
 
   ${data.test}
 
-  ## Questions
+  ## [Questions -Link] (#Link)
 
   If you have any questions please email me (${data.Github}),(${data.link}) here: ${data.email}
 
