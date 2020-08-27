@@ -16,7 +16,7 @@
 
   ## Installation <a name="installation"></a>
 
-  In the working directory,  Run in terminal:'npm install'.
+  In the working directory,  Run in terminal: npm install
 
   ## Usage <a name="usage"></a>
 

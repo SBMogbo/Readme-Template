@@ -60,7 +60,7 @@ function generateMarkdown(data) {
 
   ## Questions <a name="questions"></a>
 
-  If you have any questions please email me (${data.Github}),(${data.link}) here: ${data.email}
+  If you have any questions please contact me ${data.Github},${data.link} or  email me here: ${data.email}
 
 
 `;
