@@ -11,54 +11,75 @@ inquirer.prompt([
   // array of questions for user
   {
     type: "input",
+    message: "What is your Full Name?",
+    name: "FullName"
+    //Enter Full Name
+  },
+  {
+    type: "input",
+    message: "What year is it?",
+    name: "year"
+    //Enter Full year
+  },
+  {
+    type: "input",
     message: "What is your email address?",
     name: "email"
+    //Enter Full email
   },
   {
     type: "input",
     message: "What is your Github username?",
     name: "Github"
+    //Enter Github username
 
   },
   {
     type: "input",
     message: "What is your Github profile link?",
     name: "link"
-
+    //Enter profile link
   },
  
   {
+    //Enter project name
     type: "input",
     message: "What is your project's name",
     name: "projectName"
   },
   {
+    //Enter project description
     type: "input",
     message: "What is your project description",
     name: "description"
   },
   {
+    //Enter project install info
     type: "input",
     message: "What is your project installation infomation",
     name: "installation"
   },
   {
+    //Enter project usage
     type: "input",
     message: "How do you use your project ",
     name: "usage"
   },
   {
+    //Enter project license
     type: "input",
     message: "What kind of license should your project have",
     name: "license"
   },
  
   {
+    //Enter project contributors
     type: "input",
     message: "What does the user need to know about contributing to the repo ",
     name: "contributing"
   },
   {
+    //Enter project test details
     type: "input",
     message: "What kind of test should be done",
     name: "test"
@@ -79,25 +100,8 @@ inquirer.prompt([
     
   });
   
-  //calling github(may not use)
-  //const queryUrl = `https://api.github.com/users/${response.Github}${username}/repos?per_page=100`;
-  //calling the queryurl 
-  //axios.get(queryUrl).then(response => {
-   // console.log(response.data);
-    //const repostories = response.data.map(repository => repository.full_name);
-   // writeFileAsync("./repostories")
- // });
+  
   
 });
 
-// function to write README file
-//function writeToFile(fileName, data) {
 
-//}
-
-
-// function to initialize program
-//function init()
-
-// function call to initialize program
-//init();

@@ -8,35 +8,57 @@ function generateMarkdown(data) {
 
   ## Table of Contents
 
-  * [Installation -Link](#Link)
-  * [Usage -Link](#Link)
-  * [License -Link](#Link)
-  * [Contributing -Link](#Link)
-  * [Tests -Link](#Link)
-  * [Questions -Link](#Link)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#link)
+  * [Contributing ](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
   
 
-  ## [Installation -Link] (#Installation)
+  ## Installation <a name="installation"></a>
 
   ${data.installation}
 
-  ## [Usage -Link](#Link)
+  ## Usage <a name="usage"></a>
 
   ${data.usage}
 
-  ## [License -Link](#Link)
+  ## License <a name="license"></a>
 
   ![GitHub license](https://img.shields.io/badge/license-${data.license}-blue.svg)
 
-  ## [Contributing -Link](#Link)
+  MIT License
+
+  Copyright (c) ${data.year} ${data.FullName}
+  
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+  
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+  
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
+
+  ## Contributing <a name="contributing"></a>
 
   ${data.contributing}
 
-  ## [Tests -Link](#Link)
+  ## Tests <a name="test"></a>
 
   ${data.test}
 
-  ## [Questions -Link] (#Link)
+  ## Questions <a name="questions"></a>
 
   If you have any questions please email me (${data.Github}),(${data.link}) here: ${data.email}
 
